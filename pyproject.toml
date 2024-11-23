@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "ml-eng-takehome-mk"
+version = "0.1.0"
+description = "&&&"
+authors = ["Martin Klosi <roise3000@gmail.com>"]
+readme = "README.md"
+package-mode = false
+
+# &&& do we need all these?
+
+[tool.poetry.dependencies]
+hyperopt = "*"
+numpy = "^1.24.3"
+pandas = "^1.5.3"
+psutil = "*"
+pyarrow = "^17.0.0"
+pytest = "*"
+python = "~3.10"
+requests = "*"
+scikit-learn = "*"
+timeout-decorator = "*"
+torch = "*"
+torchmetrics = "*"
+torchvision = "*"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
