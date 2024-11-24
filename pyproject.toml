@@ -18,10 +18,12 @@ pytest = "*"
 python = "~3.10"
 requests = "*"
 scikit-learn = "*"
+spacy = "*"
 timeout-decorator = "*"
 torch = "*"
 torchmetrics = "*"
 torchvision = "*"
+transformers = "*"
 
 [build-system]
 requires = ["poetry-core"]
