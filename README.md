@@ -55,7 +55,7 @@ If you have any questions please reach out to Yiming at yiming.liu@pivotallifesc
 
 2. [poetry](https://python-poetry.org/) - Python env management tool. To install on a mac, run `brew install poerty`
 
-3. [direnv](https://direnv.net/) - An extension for the shell. It augments existing shells with a new feature that can load and unload environment variables depending on the current directory.
+3. [direnv](https://direnv.net/) - An extension for the shell. It augments existing shells with a new feature that can load and unload environment variables depending on the current directory. To install on a mac, run `brew install direnv`
 
 ### Set Up
 
