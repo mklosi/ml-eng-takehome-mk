@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "ml-eng-takehome-mk"
+version = "0.1.0"
+description = "A modular and scalable machine learning pipeline to predict Reddit post scores using a combination of textual and tabular features, with implementations showcasing different modeling techniques and a focus on production-ready MLOps practices."
+authors = ["Martin Klosi <roise3000@gmail.com>"]
+readme = "README.md"
+package-mode = false
+
+# TODO: do we need all these?
+
+[tool.poetry.dependencies]
+cleantext = "*"
+numpy = "^1.24.3"
+pandas = "^1.5.3"
+psutil = "*"
+pytest = "*"
+python = "~3.10"
+requests = "*"
+scikit-learn = "*"
+torch = "*"
+torchmetrics = "*"
+torchvision = "*"
+transformers = "*"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

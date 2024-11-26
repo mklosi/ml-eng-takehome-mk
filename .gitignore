@@ -1,0 +1,6 @@
+# Created by .ignore support plugin (hsz.mobi)
+.DS_Store
+.idea/
+/*.iml
+__pycache__
+model_artifacts
