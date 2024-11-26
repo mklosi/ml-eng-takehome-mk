@@ -67,7 +67,7 @@ I've implemented this using three different methods.
 
 1. The first method is the simplest (option 1). It uses TF-IDF to vectorize the text (no LLMs) and scikit-learn's simple RandomForestRegressor model for training and inference. It combines the title and text of posts into a single text before vectorization. It uses two additional features ('tag' and 'upvote_ratio'). I combine the text tokens with the tabular features using scipy's hstack. Before feature combo, there's cleaning and transformations done to both text and tabular data. This model is the simplest, trains the fastest on my local laptop, and yet produces the best results. This is probably due to the fact that the training data is not that big (~4000 posts).
 
-2. The next model is slightly more complicated (option 2). It uses almost all the code that option 1 uses, but it replaces the  RandomForestRegressor model with scikit-learn's MLPRegressor model.
+2. The next model is slightly more complicated (option 2). It uses almost all the code that option 1 uses, but it replaces the  RandomForestRegressor model with a simple feed-forward neural network (scikit-learn's MLPRegressor model).
 
 For both option 1 and 2, I've used only scikit-learn tools.
 
